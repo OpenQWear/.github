@@ -1,0 +1,51 @@
+<div align="center">
+
+# Open QWear
+
+强大的 AI 软件，运行于 Qwen/Quark S1/G1。
+
+</div>
+
+> **免责声明**
+>  
+>   *"Open QWear" 是一个独立的开源项目，与阿里巴巴、Qwen、Quark 或其各自组织无关联、未获其背书，也非官方合作项目。*  
+>   *"Qwen" 名称、logo <img src="https://img.shields.io/badge/-6A5CFF?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IndoaXRlIiB2aWV3Qm94PSIwIDAgMTAyNCAxMDI0Ij48cGF0aCBkPSJNNDA2LjUgMTYwLjljLTEuMS41LTIuNyAxLjctMy42IDIuNy00LjIgNC43LTg3IDE1MS4yLTg3LjUgMTU0LjktLjQgMi41IDIuMSA3LjUgMTUuNyAzMC41IDguOSAxNS4xIDE4LjkgMzIuMSAyMi4yIDM3LjcgNC41IDcuNiA2LjkgMTAuNiA5LjMgMTEuOCAyLjggMS4zIDI0LjUgMS41IDE5Mi4xIDEuNSAxODEuOSAwIDE4OC45LS4xIDE5MS44LTEuOSA0LjMtMi42IDQ1LjUtNzQuNCA0NS41LTc5LjMgMC0zLjMtMTEuNi0yNC41LTM5LjQtNzEuNi0xLjctMy00LjMtNi01LjgtNi44LTIuMy0xLjItMTgtMS40LTk3LjYtMS40LTg5LjEgMC05NS0uMS05Ni41LTEuOC0xLjItMS40LTI1LjItNDIuMy0zOC40LTY1LjctMS45LTMuMy00LjUtNy4xLTUuOS04LjVsLTIuNC0yLjUtNDguOC0uMmMtMjYuOC0uMS00OS42LjItNTAuNy42TTIxMi40IDM2MC40Yy0zLjMgMS41LTQuNSAzLjQtMzMgNTMuNi0xNi40IDI4LjktMTYuMyAyOC41LTkuMyA0MCA0LjkgOC4xIDIyLjIgMzcuMiAzNi40IDYxLjUgNC45IDguMiAxOC4yIDMwLjggMjkuNyA1MC4yIDEyLjggMjEuNiAyMC44IDM2LjIgMjAuOCAzNy44IDAgMy4zLS44IDQuOS0yMSA0MC41LTIzLjkgNDIuNC0yNCA0Mi41LTI0IDQ1LjcgMCAyLjggNi4yIDE0LjEgMzIuMiA1OC4zIDkuNCAxNS45IDEyLjEgMTkuOCAxNC45IDIxLjIgMy4yIDEuNyA5LjYgMS44IDkyLjIgMS44IDk0LjkgMCA5My4zLjEgOTYuMy00LjdDNDU3LjEgNzUxIDQ5MCA2OTEuOCA0OTAgNjkwYzAtMS4zLTMuMS03LjgtNi45LTE0LjQtMTcuNC0zMC40LTQwLjUtNzAuNC00OC42LTg0LjEtNC44LTguMy0xNy0yOS4yLTI3LTQ2LjUtMTkuOS0zNC40LTY4LjEtMTE3LjQtODcuMi0xNTAtNi42LTExLjMtMTMuNC0yMy4xLTE1LjMtMjYuMy01LjctMTAuMS0zLjQtOS43LTQ5LjUtOS43LTMxLjIuMS00MC43LjQtNDMuMSAxLjRtNDY2LjQgNzQuMWMtMy4zIDEuOC0yLjcuOS00MiA3MC41LTg0LjcgMTQ5LjktMTUxLjIgMjY4LjctMTUyLjEgMjcxLjctLjggMi43LS43IDQuMS43IDcuMSA0IDguNSA0My4yIDc0LjkgNDUuNyA3Ny41bDIuNyAyLjdoOTEuOGwzLjItMi44YzEuOS0xLjYgOS40LTEzLjYgMTguOC0zMC4yIDI0LjEtNDIuMyA3MC4zLTEyMy45IDczLjctMTMwIDEuNi0zIDQuMS03IDUuNC04LjhsMi40LTMuMmg0OC43YzQ0LjQgMCA0OS0uMiA1Mi4yLTEuOCAyLjktMS40IDUuMy00LjkgMTQuNy0yMS4yIDMwLjgtNTMuMSAzNC4zLTU5LjYgMzQuMy02M3MtMy41LTkuOC0yNy41LTUwLjVjLTYuMi0xMC41LTIzLjUtNDAuMi0zOC41LTY2LTE1LTI1LjktMjguNS00OC40LTMwLjEtNTBsLTIuOS0zLTQ5LjMtLjJjLTQxLjYtLjItNDkuNiAwLTUxLjkgMS4yIi8+PC9zdmc+" align="absmiddle"> 及相关品牌元素是 Qwen 团队及各自所有者的商标或版权材料。本项目仅出于标识与兼容性目的使用这些元素。*
+
+[![English](https://img.shields.io/badge/README-English-blue)](README.md)
+
+## 我们做了什么？(2026年5月16日)
+
+| 组件 | 状态 |
+| - | - |
+| 整体架构 | Qwen/Quark S1/G1 的架构已确定为 `bes_2800_RTOS + qcom_ar1_android`。 |
+| `bes_2800_RTOS` | 我们现在能够对 `bes_2800_RTOS` 发送和接收**自定义 BLE GMA 命令**。 |
+| `qcom_ar1_android` | 我们现在能够在 `qcom_ar1_android` 上获取**已禁用 seccomp 的 root shell**。 |
+| ❌ 显示 | 我们目前无法直接控制 S1 的显示。显示屏似乎直接连接到 `bes_2800_RTOS`，我们尚未能通过 `qcom_ar1_android` 或针对 `bes_2800_RTOS` 的自定义 BLE GMA 负载建立视频流、图像输出或 toast 渲染。 |
+| ❌ RTOS 固件 | S1 的 `bes_2800_RTOS` ROM 二进制文件已提取，但由于高熵加密，目前无法解密。 |
+
+## 架构详细观察
+
+Qwen/Quark S1/G1 中的 `qcom_ar1_android` 似乎仅用于以下有限的目的：
+
+**相机**  
+  相机操作、ISP 处理和图像稳定功能似乎通过 `qcom_ar1_android` 路由，并使用 Qualcomm 成像栈和 AliGenie 自定义图像稳定管线处理。
+
+**支付宝支付安全**  
+  支付宝支付功能似乎依赖 `qcom_ar1_android` 内的 Qualcomm TrustZone 技术来确保安全支付处理。
+
+蓝牙通信运行于 `bes_2800_RTOS`。
+
+当 `qcom_ar1_android` 关闭电源时，`bes_2800_RTOS` 继续独立运行并显示 **相机未就绪**。
+
+## 路线图
+```
+Custom QWear App
+├─ 将 AI 请求重新路由到自定义 LLM 提供商
+├─ 在设备（手机伴侣）上实现最小化的
+│  AI 代理功能
+└─ 重新实现 QwenWear (com.alibaba.wow)
+   的所有功能
+
+自定义 Qwen/Quark S1/G1 固件
+└─ 等待后续更新...
+```

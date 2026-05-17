@@ -6,6 +6,8 @@ Powerful AI software runs with Qwen/Quark S1/G1.
 
 </div>
 
+[![中文](https://img.shields.io/badge/README-中文-red)](README_CN.md)
+
 > **Disclaimer**
 >  
 >   *"Open QWear" is an independent open-source project and is not affiliated with, endorsed by, or officially associated with Alibaba, Qwen, Quark, or their respective organizations.*  
