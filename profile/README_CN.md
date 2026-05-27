@@ -2,7 +2,7 @@
 
 # Open QWear
 
-强大的 AI 软件，运行于 夸克/千问 S1/G1
+Powerful AI software runs with Qwen/Quark S1/G1.
 
 </div>
 
